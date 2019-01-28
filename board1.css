@@ -1,0 +1,47 @@
+
+.body{
+	background-color:pink;
+text-align: center;
+}
+#board-container
+
+.row {
+			/*display: inline-block;
+			justify-content: space-evenly;
+			border: 1px solid blue;*/
+			/*width: 844px;*/
+			/*height: 844px;*/
+
+		}
+		.cell {
+			/*border: 1px solid blue;*/
+			width: 100px;
+			height: 100px;
+			display: inline-block;
+			margin: 0px;
+
+		}
+
+		.black {
+			background-color: black;
+		}
+		.red {
+			/*background-color: darkred;*/
+			background-image: url("images/red-marble.jpg");
+		}
+		.checker {
+			margin: 10px;
+			border-radius: 50%;
+		}
+		.red-checker {
+			background-color: #DC143C;
+			height: 80px;
+			width: 80px;
+
+		}
+		.black-checker {
+			background-color: darkgrey;
+			height: 80px;
+			width: 80px;
+		}
+		
