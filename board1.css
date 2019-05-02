@@ -1,47 +1,63 @@
-
-.body{
-	background-color:pink;
-text-align: center;
+body {
+background-color: brown;
+    text-align: center;
 }
-#board-container
 
+#board-container {
+    background-image: url("https://previews.123rf.com/images/vladimirs/vladimirs1611/vladimirs161100004/69106289-wood-texture-background-brown-grained-wooden-pattern-oak-timber-desk-surface.jpg");
+    display: inline-block;
+    padding: 2%;
+}
 .row {
-			/*display: inline-block;
-			justify-content: space-evenly;
-			border: 1px solid blue;*/
-			/*width: 844px;*/
-			/*height: 844px;*/
+    display: flex;
+    justify-content: space-evenly;
+}
+.cell {
+    width: 8vw;
+    height: 8vw;
+    max-width: 11vh;
+    max-height: 11vh;
+    display: inline-block;
+    margin: 0px;
+}
 
-		}
-		.cell {
-			/*border: 1px solid blue;*/
-			width: 100px;
-			height: 100px;
-			display: inline-block;
-			margin: 0px;
+.black {
+    background-image: url("woodier.jpg");
+}
 
-		}
+.white {
+    background-image: url("wood.jpg");
+}
 
-		.black {
-			background-color: black;
-		}
-		.red {
-			/*background-color: darkred;*/
-			background-image: url("images/red-marble.jpg");
-		}
-		.checker {
-			margin: 10px;
-			border-radius: 50%;
-		}
-		.red-checker {
-			background-color: #DC143C;
-			height: 80px;
-			width: 80px;
+.checker {
+    margin: 10%;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+}
 
-		}
-		.black-checker {
-			background-color: darkgrey;
-			height: 80px;
-			width: 80px;
-		}
-		
+.white-checker {
+    background-image: url("http://chongzizil.github.io/Checkers-SMG/imgs/white_man.png");
+    background-size: cover;
+}
+
+.black-checker {
+    background-image: url("https://i0.wp.com/www.codestack.fun/wp-content/uploads/2018/03/CheckerBlack.png?resize=200%2C200&ssl=1");
+    background-size: cover;
+}
+
+.selected{
+.selected {
+    margin: 0;
+    border: 1vmin solid rgba(255,255,255,0.5);
+    background-repeat: no-repeat;
+}
+
+.out-of-play {
+    /*width: 10vmin;*/
+    /*height: 10vmin;*/
+}
+
+i {
+    font-size: 3vmin;
+}
