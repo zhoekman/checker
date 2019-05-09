@@ -1,3 +1,4 @@
+alert("Hello! I am an alert box!!");
 $(document).ready(function () {
     console.log('document ready')
     $('#board-container').html(renderBoard())
