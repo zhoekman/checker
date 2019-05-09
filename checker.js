@@ -1,3 +1,4 @@
+
 var selectedChecker = undefined
 
 var checkers = [
